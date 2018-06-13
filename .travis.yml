@@ -16,8 +16,8 @@ install:
   - pip install -e .\[dev\]
 
 script:
-  - flake8 click_aliases examples tests setup.py -v --show-source
-  - py.test tests --cov click_aliases --cov-report term-missing
+  - flake8 click_alias examples tests setup.py -v --show-source
+  - py.test tests --cov click_alias --cov-report term-missing
 
 after_success:
   - coveralls

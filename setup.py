@@ -6,7 +6,7 @@ with open('README.rst') as f:
     readme = f.read()
 
 setup(
-    name='click-aliases',
+    name='click-alias',
     version='0.1',
     description='Enable aliases for Click',
     long_description=readme,
@@ -14,7 +14,7 @@ setup(
     author_email='robbin@bonthond.com',
     url='https://github.com/click-contrib/click-aliases',
     license='MIT',
-    packages=['click_aliases'],
+    packages=['click_alias'],
     install_requires=[
         'click',
     ],

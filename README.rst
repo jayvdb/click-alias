@@ -1,6 +1,6 @@
-=============
-click-aliases
-=============
+===========
+click-alias
+===========
 
 |build| |license| |coverage|
 
@@ -14,7 +14,7 @@ In your click_ app:
 .. code:: python
 
     import click
-    from click_aliases import ClickAliasedGroup
+    from click_alias import ClickAliasedGroup
 
     @click.group(cls=ClickAliasedGroup)
     def cli():

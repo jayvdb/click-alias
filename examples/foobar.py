@@ -1,5 +1,5 @@
 import click
-from click_aliases import ClickAliasedGroup
+from click_alias import ClickAliasedGroup
 
 
 @click.group(cls=ClickAliasedGroup)
