@@ -7,12 +7,12 @@ with open('README.rst') as f:
 
 setup(
     name='click-alias',
-    version='0.1',
-    description='Enable aliases for Click',
+    version='0.1.0.a1',
+    description='Click command aliaser',
     long_description=readme,
-    author='Robbin Bonthond',
-    author_email='robbin@bonthond.com',
-    url='https://github.com/click-contrib/click-aliases',
+    author='Hot Off The Hamster',
+    author_email='hotoffthehamster@gmail.com',
+    url='https://github.com/hotoffthehamster/click-alias',
     license='MIT',
     packages=['click_alias'],
     install_requires=[
