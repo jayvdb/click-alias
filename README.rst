@@ -2,7 +2,21 @@
 click-alias
 ===========
 
-**This is experimental, which is why it's not on PyPI**
+Says the original author:
+
+**This is experimental, which is why it's not on PyPI.**
+
+Says the new step parent:
+
+**Get out there and make me proud!**
+
+(This code is experimental, but it works for me.
+I found it on GitHub, and now I've published it
+on PyPI. Enjoy!)
+
+-----------
+Description
+-----------
 
 Add (multiple) aliases to a click_ group or command.
 
