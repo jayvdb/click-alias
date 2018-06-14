@@ -7,7 +7,7 @@ with open('README.rst') as f:
 
 setup(
     name='click-alias',
-    version='0.1.1.a2',
+    version='0.1.1.a3',
     description='Click command aliaser',
     long_description=readme,
     author='Hot Off The Hamster',
