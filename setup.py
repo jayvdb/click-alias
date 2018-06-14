@@ -16,7 +16,9 @@ setup(
     license='MIT',
     packages=['click_alias'],
     install_requires=[
-        'click',
+        # FIXME: (lb): Using our own bleeding edge Click until v7 is released!
+        #'click',
+        'click--hotoffthehamster',
     ],
     extras_require={
         'dev': [
