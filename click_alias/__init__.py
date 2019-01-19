@@ -56,7 +56,7 @@ class ClickAliasedGroup(click.Group):
             return command
 
     # SYNC_ME: (lb): This is nasty. Click v7 breaks the first version of this
-    # function (the only I copied from some rando's GitHub, and then uploaded
+    # function (that I copied from some user's GitHub, and then I uploaded
     # to PyPI). To make it play nice, ideally, we'd break up Click's base
     # function, MultiCommand.format_commands, into pieces, so that we could
     # just add 3 lines of new code and do nothing else. But that function is
