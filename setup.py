@@ -23,7 +23,6 @@ setup(
             'flake8',
             'flake8-import-order',
             'tox-travis',
-            'pytest',
             'pytest-cov',
             'coveralls',
             'wheel',
