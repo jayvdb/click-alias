@@ -41,6 +41,7 @@ def test_foobar(runner):
 
 
 TEST_INVALID = """Usage: cli [OPTIONS] COMMAND [ARGS]...
+Try "cli --help" for help.
 
 Error: No such command "baz".
 """
