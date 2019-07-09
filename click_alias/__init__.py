@@ -95,4 +95,3 @@ class ClickAliasedGroup(click.Group):
             if rows:
                 with formatter.section('Commands'):
                     formatter.write_dl(rows)
-
