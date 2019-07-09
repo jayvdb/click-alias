@@ -18,7 +18,7 @@ install:
   - pip install -e .\[dev\]
 
 script:
-  - flake8 click_alias examples tests setup.py -v --show-source
+  - flake8 click_alias examples tests setup.py -v --show-source --ignore=I201 --max-line-length=88
   - py.test tests --cov click_alias --cov-report term-missing
 
 after_success:
